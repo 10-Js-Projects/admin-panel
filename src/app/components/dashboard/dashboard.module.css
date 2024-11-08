@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+}
+.sidebar {
+  flex: 1;
+  background-color: var(--backgroundSoft);
+}
+.navbar {
+  flex: 4;
+}

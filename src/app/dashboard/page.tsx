@@ -1,7 +1,9 @@
-import React from "react";
+import { NextPage } from "next";
 
-function DashBoard() {
+type Props = object;
+
+const DashBoard: NextPage<Props> = ({}) => {
   return <div>DashBoard</div>;
-}
+};
 
 export default DashBoard;
